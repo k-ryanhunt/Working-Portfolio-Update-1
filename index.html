@@ -8,50 +8,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Staatliches&display=swap" rel="stylesheet">
 </head>
-
-<body>
-
-<div class="navbar-fixed">
+<header>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">House of Kel</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="https://github.com/k-ryanhunt" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/k-ryanhunt/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#ABOUT">&#9819</a></li>
-        <li><a href="#portfolio">&#9993</a></li>
-        <li><a href="#contactform">&#9742</a></li>
+      <a href="#" class="brand-logo center" id="scrollUp">House of Kel</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#contactMe">Contact Me</a></li>
       </ul>
     </div>
   </nav>
-</div>
-
-  <!-- <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="./assets/Images/picofme.jpg">
-      </div>
-      <a href="#user"><img class="circle" src="./assets/Images/picofme.jpg"></a>
-      <a href="#name"><span class="white-text name">Kelsea Hunt</span></a>
-      <a href="#email"><span class="white-text email">hunt.kelsearyan@gmail.com</span></a>
-    </div></li>
-    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-    <li><a href="#!">Second Link</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="subheader">Subheader</a></li>
-    <li><a class="waves-effect" href="#!">My name is Kelsea Hunt and I am originally from Charleston, South Carolina.
-      I moved to Denver, Colorado in April of 2020 during the middle of the pandemic.
-      This past year I have forced myself out of my comfort zone.
-      I currently work at a financial institution and wanted to try something that forces me to use my creative side.
-      I decided to give web development a chance so here I am!</a></li>
-  </ul>
-  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
-
+</header>
+<main>
     <div class="container">
       <div class="col s4">
-        <div class="card small hoverable">
+        <div class="card large hoverable">
           <div class="card-image">
             <img src="./assets/Images/BodyBackground.jpg" alt="First group project">
             <span class="card-title">Project One</span>
@@ -219,17 +194,35 @@
       </div>
     </div>
   </div>
+  </main>
 
-
-    <section id="contactform">
-        <form>
-          <input name="name" type="text" class="feedback-input" placeholder="Kelsea Ryan Hunt" />
-          <input name="email" type="text" class="feedback-input" placeholder="hunt.kelsearyan@gmail.com" />
-        </form>
-    </section>
-
-
-</body>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text" id="aboutMe">Kelsea Ryan Hunt</h5>
+          <p class="grey-text text-lighten-4">My name is Kelsea Hunt and I am originally from Charleston, South Carolina.
+            I moved to Denver, Colorado in April of 2020 during the middle of the pandemic.
+            This past year I have forced myself out of my comfort zone.
+            I currently work at a financial institution and wanted to try something that forces me to use my creative side.
+            I decided to give web development a chance so here I am!</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text" id="contactMe">Contact Me</h5>
+          <ul>
+            <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="#!"><i class="material-icons" id="icon">phonelink_ring</i>843-822-9802</a></li>
+            <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="#!"><i class="material-icons" id="icon">email</i>hunt.kelsearyan@gmail.com</a></li>
+            <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="https://github.com/k-ryanhunt" target="_blank"><i class="material-icons" id="icon">code</i>GitHub Portfolio</a></li>
+            <li><a id="contactInfo" class="grey-text text-lighten-3 valign-wrapper" href="https://www.linkedin.com/in/k-ryanhunt/" target="_blank"><i class="material-icons" id="icon">group_add</i>LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="center-align container">
+      <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons valign-wrapper">arrow_upward</i></a>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
