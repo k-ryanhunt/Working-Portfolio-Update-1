@@ -25,7 +25,7 @@ div.col.s4 {
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
-  opacity: 25%;
+  opacity: 15%;
 }
 
 .card-image:hover {
@@ -54,7 +54,9 @@ span.card-title,
 
 #icon {
   font-size: 25px;
-  color: #25CCF7;
+  background: -webkit-linear-gradient(cyan, greenyellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   padding: 5px 4px;
 }
 
