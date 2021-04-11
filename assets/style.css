@@ -1,14 +1,17 @@
 body {
   font-family: 'Arial';
   font-size: 16px;
-  background-color: #272727;
+  color: white;
+  background-image: url(./Images/CODEREFACTOR.png);
+  background-attachment: fixed;
+  backdrop-filter: blur(6px);
 }
 
 .nav-wrapper,
 a.brand-logo {
   font-family: 'Staatliches';
   font-size: xx-large;
-  background-color: #1C3334;
+  background-color: #1A1A1D;
 }
 
 div.col.s4 {
@@ -16,18 +19,33 @@ div.col.s4 {
 }
 
 .card.hoverable {
-  background-color: #212121;
+  background: radial-gradient(#535353, #212121);
 }
 
-.card-title {
-  font-family: 'Caveat Brush';
+.card-image {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.card-image:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
 }
 
 span.card-title,
 .card-content,
 .card-action {
+  font-family: 'Caveat Brush';
   align-items: center;
   text-align: center;
+}
+
+.card-content {
+  font-size: 20px;
 }
 
 #contactInfo {
@@ -36,9 +54,10 @@ span.card-title,
 
 #icon {
   font-size: 25px;
-  padding-right: 10px;
+  color: #64ffda;
+  padding: 5px 4px;
 }
 
 footer.page-footer {
-  background-color: #0f292f;
+  background-color: #1A1A1D;
 }
