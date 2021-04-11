@@ -1,20 +1,33 @@
 body {
+  font-family: 'Arial';
   font-size: 16px;
-  background-color: #212121;
+  background-color: #272727;
 }
 
-.nav-wrapper {
+.nav-wrapper,
+a.brand-logo {
   font-family: 'Staatliches';
   font-size: xx-large;
-  background-color: #0f292f;
+  background-color: #1C3334;
 }
 
-.card {
-  border: 10px solid #501F3A;
+div.col.s4 {
+  padding: 9px;
+}
+
+.card.hoverable {
+  background-color: #212121;
 }
 
 .card-title {
   font-family: 'Caveat Brush';
+}
+
+span.card-title,
+.card-content,
+.card-action {
+  align-items: center;
+  text-align: center;
 }
 
 #contactInfo {
@@ -22,6 +35,7 @@ body {
 }
 
 #icon {
+  font-size: 25px;
   padding-right: 10px;
 }
 
