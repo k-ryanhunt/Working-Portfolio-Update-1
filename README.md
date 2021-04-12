@@ -14,12 +14,12 @@ I decided to show off our group project that we completed that utilizes 2 Web AP
 
 # How my Portfolio Reacts to its User
 
-![GIF](assets\Images\gif.gif)
+![GIF](assets/Images/gif.gif)
 
 
 # Image of my Portfolio
 
-![Screenshot](assets\Images\screenshot.png)
+![Screenshot](assets/Images/screenshot.png)
 
 
 # Check out my live Portfolio!
