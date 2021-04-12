@@ -9,6 +9,16 @@ body {
   background-attachment: fixed;
 }
 
+.nav-wrapper {
+  background-color: #182c61;
+  font-size: 100px;
+}
+
+.brand-logo.center {
+  font-family: 'Over the Rainbow';
+  font-size: 50px;
+}
+
 div.col.s4 {
   padding: 9px;
 }
