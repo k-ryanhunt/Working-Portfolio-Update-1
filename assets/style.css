@@ -1,15 +1,12 @@
 body {
-  font-family: 'Arial';
+  font-family: "Arial";
   font-size: 16px;
   color: white;
-  background: linear-gradient(to right, #c6ffdd,#fbd786,#f7797d);
-}
-
-.nav-wrapper,
-nav .brand-logo.center {
-  font-family: 'Archivo Black';
-  font-size: 75px;
-  background: #152655;
+  /* background: linear-gradient(to right, #c6ffdd,#fbd786,#f7797d); */
+  background-image: url(./Images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 div.col.s4 {
@@ -39,7 +36,7 @@ div.col.s4 {
 span.card-title,
 .card-content,
 .card-action {
-  font-family: 'Caveat Brush';
+  font-family: "Caveat Brush";
   align-items: center;
   text-align: center;
 }
@@ -61,9 +58,9 @@ span.card-title,
 }
 
 footer.page-footer {
-  background-color: #182C61;
+  background-color: #182c61;
 }
 
 h5 {
-  font-family: 'Over the Rainbow';
+  font-family: "Over the Rainbow";
 }
