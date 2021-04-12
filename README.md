@@ -29,7 +29,7 @@ https://k-ryanhunt.github.io/Working-Portfolio-Version-2/
 
 # License
 
-The MIT License
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 # Contact Me:
 
