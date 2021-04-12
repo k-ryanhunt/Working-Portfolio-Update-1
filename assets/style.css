@@ -16,7 +16,11 @@ body {
 
 .brand-logo.center {
   font-family: 'Over the Rainbow';
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 45px;
+  background: -webkit-linear-gradient(cyan, greenyellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 div.col.s4 {
